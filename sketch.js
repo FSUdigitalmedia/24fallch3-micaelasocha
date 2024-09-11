@@ -54,7 +54,6 @@ function draw() {{
     ellipse(mouseX,mouseY,33,33)
 
 
-    
     circle(x1, y1, d1);function draw() {}}
    {
     
@@ -75,8 +74,13 @@ function draw() {{
 {
       // if x hits the right side or the left side of the canvas,
     // switch directions...
-   
- 
+  }
+  if (keyIsPressed) {
+    if (key === 'c') {
+      stroke(0);
+      circle(200,300,300,300); 
+  
+    }
   }
  
 }
